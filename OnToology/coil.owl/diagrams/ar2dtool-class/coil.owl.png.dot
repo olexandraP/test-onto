@@ -1,0 +1,9 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"coil:" -> "http://www.mendeley.com/profiles/janne-parkkila/" [ label = "terms:creator" ];
+	"coil:" -> "coil:" [ label = "vann:preferredNamespaceUri" ];
+	"coil:" -> "http://creativecommons.org/licenses/by-nc-sa/2.0/" [ label = "terms:license" ];
+	"coil:" -> "http://delicias.dia.fi.upm.es/members/DGarijo/#me" [ label = "terms:contributor" ];
+
+}
