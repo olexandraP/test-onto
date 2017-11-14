@@ -1,0 +1,19 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "http://purl.org/net/VideoGameOntology#GameEvent" "http://purl.org/net/VideoGameOntology#Achievement" "coil:Coil_Learn_To_Circle" "http://purl.org/net/VideoGameOntology#Tutorial" "http://purl.org/net/VideoGameOntology#HardMode" "coil:Coil_Bomb_Die_Of_Age" "coil:Coil_Enclose_Bomb" "coil:Coil_Circle_10_In_A_Row" "coil:Arcade" "coil:Coil_New_Game" "coil:Coil_Fail_Circling" "coil:Coil_Enemy_Die_Of_Age" "coil:Coil_Enclose_Enemy" "http://purl.org/net/VideoGameOntology#InstantaneousEvent" "coil:Coil_Game_Over" "http://purl.org/net/VideoGameOntology#Genre" ; /*classes style*/
+	"http://purl.org/net/VideoGameOntology#Tutorial" -> "http://purl.org/net/VideoGameOntology#Achievement" [ label = "rdfs:subClassOf" ];
+	"http://purl.org/net/VideoGameOntology#HardMode" -> "http://purl.org/net/VideoGameOntology#Achievement" [ label = "rdfs:subClassOf" ];
+	"coil:Coil_Learn_To_Circle" -> "http://purl.org/net/VideoGameOntology#Tutorial" [ label = "rdfs:subClassOf" ];
+	"coil:Coil_Fail_Circling" -> "http://purl.org/net/VideoGameOntology#Tutorial" [ label = "rdfs:subClassOf" ];
+	"coil:Coil_Enclose_Bomb" -> "http://purl.org/net/VideoGameOntology#GameEvent" [ label = "rdfs:subClassOf" ];
+	"coil:Coil_Bomb_Die_Of_Age" -> "http://purl.org/net/VideoGameOntology#GameEvent" [ label = "rdfs:subClassOf" ];
+	"coil:Coil_Circle_10_In_A_Row" -> "http://purl.org/net/VideoGameOntology#HardMode" [ label = "rdfs:subClassOf" ];
+	"coil:Coil_Game_Over" -> "http://purl.org/net/VideoGameOntology#GameEvent" [ label = "rdfs:subClassOf" ];
+	"http://purl.org/net/VideoGameOntology#GameEvent" -> "http://purl.org/net/VideoGameOntology#InstantaneousEvent" [ label = "rdfs:subClassOf" ];
+	"coil:Coil_Enclose_Enemy" -> "http://purl.org/net/VideoGameOntology#GameEvent" [ label = "rdfs:subClassOf" ];
+	"coil:Coil_New_Game" -> "http://purl.org/net/VideoGameOntology#GameEvent" [ label = "rdfs:subClassOf" ];
+	"coil:Coil_Enemy_Die_Of_Age" -> "http://purl.org/net/VideoGameOntology#GameEvent" [ label = "rdfs:subClassOf" ];
+	"coil:Arcade" -> "http://purl.org/net/VideoGameOntology#Genre" [ label = "rdfs:subClassOf" ];
+
+}
