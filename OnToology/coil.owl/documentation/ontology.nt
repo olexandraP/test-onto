@@ -1,0 +1,105 @@
+<https://w3id.org/games/spec/coil#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/games/spec/coil#> <http://purl.org/dc/terms/bibliographicCitation> "An ontology for videogame interoperability. Parkkila, J.; Radulovic, F.; Garijo, D.; Poveda-Villal\u00F3n, M.; Ikonen, J.; Porras, J.; and G\u00F3mez-P\u00E9rez, A. Multimedia Tools and Applications"@en .
+<https://w3id.org/games/spec/coil#> <http://purl.org/dc/terms/contributor> <http://delicias.dia.fi.upm.es/members/DGarijo/#me> .
+<https://w3id.org/games/spec/coil#> <http://purl.org/dc/terms/created> "02-13-2015"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/games/spec/coil#> <http://purl.org/dc/terms/creator> <http://www.mendeley.com/profiles/janne-parkkila/> .
+<https://w3id.org/games/spec/coil#> <http://purl.org/dc/terms/description> "Extension of the video game ontology to represent the main concepts of the game Coil"@en .
+<https://w3id.org/games/spec/coil#> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by-nc-sa/2.0/> .
+<https://w3id.org/games/spec/coil#> <http://purl.org/dc/terms/title> "Coil Videogame Ontology"@en .
+<https://w3id.org/games/spec/coil#> <http://purl.org/ontology/bibo/doi> "10.1007/s11042-016-3552-6"@en .
+<https://w3id.org/games/spec/coil#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "coil" .
+<https://w3id.org/games/spec/coil#> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://w3id.org/games/spec/coil#> .
+<https://w3id.org/games/spec/coil#> <http://www.w3.org/2000/01/rdf-schema#comment> "Extension of the video game ontology to represent the main concepts of the game Coil"@en .
+<https://w3id.org/games/spec/coil#> <http://www.w3.org/2000/01/rdf-schema#label> "Coil Ontology"@en .
+<https://w3id.org/games/spec/coil#> <http://www.w3.org/2002/07/owl#versionInfo> "1.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/net/VideoGameOntology#Achievement
+<http://purl.org/net/VideoGameOntology#Achievement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.org/net/VideoGameOntology#GameEvent
+<http://purl.org/net/VideoGameOntology#GameEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/VideoGameOntology#GameEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/VideoGameOntology#InstantaneousEvent> .
+# 
+# http://purl.org/net/VideoGameOntology#Genre
+<http://purl.org/net/VideoGameOntology#Genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.org/net/VideoGameOntology#HardMode
+<http://purl.org/net/VideoGameOntology#HardMode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/VideoGameOntology#HardMode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/VideoGameOntology#Achievement> .
+# 
+# http://purl.org/net/VideoGameOntology#InstantaneousEvent
+<http://purl.org/net/VideoGameOntology#InstantaneousEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.org/net/VideoGameOntology#Tutorial
+<http://purl.org/net/VideoGameOntology#Tutorial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/VideoGameOntology#Tutorial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/VideoGameOntology#Achievement> .
+# 
+# https://w3id.org/games/spec/coil#Arcade
+<https://w3id.org/games/spec/coil#Arcade> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/games/spec/coil#Arcade> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/VideoGameOntology#Genre> .
+<https://w3id.org/games/spec/coil#Arcade> <http://www.w3.org/2000/01/rdf-schema#comment> "An arcade type of game"@en .
+<https://w3id.org/games/spec/coil#Arcade> <http://www.w3.org/2000/01/rdf-schema#label> "Arcade"@en .
+# 
+# https://w3id.org/games/spec/coil#Coil_Bomb_Die_Of_Age
+<https://w3id.org/games/spec/coil#Coil_Bomb_Die_Of_Age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/games/spec/coil#Coil_Bomb_Die_Of_Age> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/VideoGameOntology#GameEvent> .
+<https://w3id.org/games/spec/coil#Coil_Bomb_Die_Of_Age> <http://www.w3.org/2000/01/rdf-schema#comment> "An event of bomb dying of age"@en .
+<https://w3id.org/games/spec/coil#Coil_Bomb_Die_Of_Age> <http://www.w3.org/2000/01/rdf-schema#label> "Bomb Die of Age"@en .
+# 
+# https://w3id.org/games/spec/coil#Coil_Circle_10_In_A_Row
+<https://w3id.org/games/spec/coil#Coil_Circle_10_In_A_Row> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/games/spec/coil#Coil_Circle_10_In_A_Row> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/VideoGameOntology#HardMode> .
+<https://w3id.org/games/spec/coil#Coil_Circle_10_In_A_Row> <http://www.w3.org/2000/01/rdf-schema#comment> "An achievement given for circling 10 enemies at a same time"@en .
+<https://w3id.org/games/spec/coil#Coil_Circle_10_In_A_Row> <http://www.w3.org/2000/01/rdf-schema#label> "Circle 10 in a Row"@en .
+# 
+# https://w3id.org/games/spec/coil#Coil_Enclose_Bomb
+<https://w3id.org/games/spec/coil#Coil_Enclose_Bomb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/games/spec/coil#Coil_Enclose_Bomb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/VideoGameOntology#GameEvent> .
+<https://w3id.org/games/spec/coil#Coil_Enclose_Bomb> <http://www.w3.org/2000/01/rdf-schema#comment> "An event of player enclosing a bomb"@en .
+<https://w3id.org/games/spec/coil#Coil_Enclose_Bomb> <http://www.w3.org/2000/01/rdf-schema#label> "Enclose Bomb"@en .
+# 
+# https://w3id.org/games/spec/coil#Coil_Enclose_Enemy
+<https://w3id.org/games/spec/coil#Coil_Enclose_Enemy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/games/spec/coil#Coil_Enclose_Enemy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/VideoGameOntology#GameEvent> .
+<https://w3id.org/games/spec/coil#Coil_Enclose_Enemy> <http://www.w3.org/2000/01/rdf-schema#comment> "An event of player enclosing an enemy"@en .
+<https://w3id.org/games/spec/coil#Coil_Enclose_Enemy> <http://www.w3.org/2000/01/rdf-schema#label> "Enclose Enemy"@en .
+# 
+# https://w3id.org/games/spec/coil#Coil_Enemy_Die_Of_Age
+<https://w3id.org/games/spec/coil#Coil_Enemy_Die_Of_Age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/games/spec/coil#Coil_Enemy_Die_Of_Age> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/VideoGameOntology#GameEvent> .
+<https://w3id.org/games/spec/coil#Coil_Enemy_Die_Of_Age> <http://www.w3.org/2000/01/rdf-schema#comment> "An event of enemy dying of age"@en .
+<https://w3id.org/games/spec/coil#Coil_Enemy_Die_Of_Age> <http://www.w3.org/2000/01/rdf-schema#label> "Enemy Die of Age"@en .
+# 
+# https://w3id.org/games/spec/coil#Coil_Fail_Circling
+<https://w3id.org/games/spec/coil#Coil_Fail_Circling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/games/spec/coil#Coil_Fail_Circling> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/VideoGameOntology#Tutorial> .
+<https://w3id.org/games/spec/coil#Coil_Fail_Circling> <http://www.w3.org/2000/01/rdf-schema#comment> "An achievement given for failing in circling an enemy"@en .
+<https://w3id.org/games/spec/coil#Coil_Fail_Circling> <http://www.w3.org/2000/01/rdf-schema#label> "Fail Circling"@en .
+# 
+# https://w3id.org/games/spec/coil#Coil_Game_Over
+<https://w3id.org/games/spec/coil#Coil_Game_Over> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/games/spec/coil#Coil_Game_Over> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/VideoGameOntology#GameEvent> .
+<https://w3id.org/games/spec/coil#Coil_Game_Over> <http://www.w3.org/2000/01/rdf-schema#comment> "A Game Over event"@en .
+<https://w3id.org/games/spec/coil#Coil_Game_Over> <http://www.w3.org/2000/01/rdf-schema#label> "Game Over"@en .
+# 
+# https://w3id.org/games/spec/coil#Coil_Learn_To_Circle
+<https://w3id.org/games/spec/coil#Coil_Learn_To_Circle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/games/spec/coil#Coil_Learn_To_Circle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/VideoGameOntology#Tutorial> .
+<https://w3id.org/games/spec/coil#Coil_Learn_To_Circle> <http://www.w3.org/2000/01/rdf-schema#comment> "An achievement given for learning to circle"@en .
+<https://w3id.org/games/spec/coil#Coil_Learn_To_Circle> <http://www.w3.org/2000/01/rdf-schema#label> "Learn to Circle"@en .
+# 
+# https://w3id.org/games/spec/coil#Coil_New_Game
+<https://w3id.org/games/spec/coil#Coil_New_Game> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/games/spec/coil#Coil_New_Game> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/VideoGameOntology#GameEvent> .
+<https://w3id.org/games/spec/coil#Coil_New_Game> <http://www.w3.org/2000/01/rdf-schema#comment> "A New Game Event"@en .
+<https://w3id.org/games/spec/coil#Coil_New_Game> <http://www.w3.org/2000/01/rdf-schema#label> "New Game"@en .
+# 
+# Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/
