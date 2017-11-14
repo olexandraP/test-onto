@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 
-
 <!DOCTYPE rdf:RDF [
     <!ENTITY terms "http://purl.org/dc/terms/" >
     <!ENTITY vann "http://purl.org/vocab/vann/" >
