@@ -1,0 +1,12 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<..\index-en.html> a prov:Entity;
+	 dc:title "Coil Videogame Ontology";
+	 prov:wasAttributedTo <http://www.mendeley.com/profiles/janne-parkkila/>;
+	 dc:creator <http://www.mendeley.com/profiles/janne-parkkila/>;
+	 prov:wasAttributedTo <http://delicias.dia.fi.upm.es/members/DGarijo/#me>;
+	 dc:contributor <http://delicias.dia.fi.upm.es/members/DGarijo/#me>;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:wasGeneratedAt "02-13-2015";
+.
