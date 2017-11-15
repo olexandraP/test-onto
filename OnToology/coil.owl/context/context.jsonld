@@ -1,0 +1,91 @@
+{
+  "@context" : {
+    "Coil_Circle_10_In_A_Row" : {
+      "@id" : "https://w3id.org/games/spec/coil#Coil_Circle_10_In_A_Row"
+    },
+    "Achievement" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Achievement"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "Tutorial" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Tutorial"
+    },
+    "bibliographicCitation" : {
+      "@id" : "http://purl.org/dc/terms/bibliographicCitation"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "doi" : {
+      "@id" : "http://purl.org/ontology/bibo/doi"
+    },
+    "Coil_Enclose_Bomb" : {
+      "@id" : "https://w3id.org/games/spec/coil#Coil_Enclose_Bomb"
+    },
+    "GameEvent" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#GameEvent"
+    },
+    "Arcade" : {
+      "@id" : "https://w3id.org/games/spec/coil#Arcade"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "Coil_Game_Over" : {
+      "@id" : "https://w3id.org/games/spec/coil#Coil_Game_Over"
+    },
+    "Coil_Enclose_Enemy" : {
+      "@id" : "https://w3id.org/games/spec/coil#Coil_Enclose_Enemy"
+    },
+    "Coil_Enemy_Die_Of_Age" : {
+      "@id" : "https://w3id.org/games/spec/coil#Coil_Enemy_Die_Of_Age"
+    },
+    "Coil_Learn_To_Circle" : {
+      "@id" : "https://w3id.org/games/spec/coil#Coil_Learn_To_Circle"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "Coil_Fail_Circling" : {
+      "@id" : "https://w3id.org/games/spec/coil#Coil_Fail_Circling"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "Coil_New_Game" : {
+      "@id" : "https://w3id.org/games/spec/coil#Coil_New_Game"
+    },
+    "InstantaneousEvent" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#InstantaneousEvent"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Genre" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Genre"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/terms/contributor"
+    },
+    "Coil_Bomb_Die_Of_Age" : {
+      "@id" : "https://w3id.org/games/spec/coil#Coil_Bomb_Die_Of_Age"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "HardMode" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#HardMode"
+    }
+  }
+}
