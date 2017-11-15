@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://schema-tourism.sti2.org/Event"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://schema-tourism.sti2.org/Event">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Event Domain Specification</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Event domain spesification of schema.org</Literal>
+    </Annotation>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/ExhibitionEvent"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/eventStatus"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/contributor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/organizer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/FoodEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/LiteraryEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/ScreeningEvent"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/previousStartDate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/ComedyEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/SportsEvent"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/startDate"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/offers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/MusicEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/DanceEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/SocialEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Event"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/performer"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/image"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/SaleEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/TheaterEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/EducationEvent"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/typicalAgeRange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/VisualArtsEvent"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/endDate"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="http://schema.org/URL"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/isAccessibleForFree"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/sameAs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/BusinessEvent"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/ChildrensEvent"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/doorTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Festival"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="http://schema.org/Text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/DeliveryEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/CourseInstance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/PublicationEvent"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://schema.org/BusinessEvent"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/ChildrensEvent"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/ComedyEvent"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/CourseInstance"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/DanceEvent"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/DeliveryEvent"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/EducationEvent"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/ExhibitionEvent"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/Festival"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/FoodEvent"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/LiteraryEvent"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/MusicEvent"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/PublicationEvent"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/SaleEvent"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/ScreeningEvent"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/SocialEvent"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/SportsEvent"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/TheaterEvent"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/VisualArtsEvent"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://schema.org/BusinessEvent"/>
+        <Class IRI="http://schema.org/ChildrensEvent"/>
+        <Class IRI="http://schema.org/ComedyEvent"/>
+        <Class IRI="http://schema.org/CourseInstance"/>
+        <Class IRI="http://schema.org/DanceEvent"/>
+        <Class IRI="http://schema.org/DeliveryEvent"/>
+        <Class IRI="http://schema.org/EducationEvent"/>
+        <Class IRI="http://schema.org/ExhibitionEvent"/>
+        <Class IRI="http://schema.org/Festival"/>
+        <Class IRI="http://schema.org/FoodEvent"/>
+        <Class IRI="http://schema.org/LiteraryEvent"/>
+        <Class IRI="http://schema.org/MusicEvent"/>
+        <Class IRI="http://schema.org/PublicationEvent"/>
+        <Class IRI="http://schema.org/SaleEvent"/>
+        <Class IRI="http://schema.org/ScreeningEvent"/>
+        <Class IRI="http://schema.org/SocialEvent"/>
+        <Class IRI="http://schema.org/SportsEvent"/>
+        <Class IRI="http://schema.org/TheaterEvent"/>
+        <Class IRI="http://schema.org/VisualArtsEvent"/>
+    </DisjointClasses>
+    <AnnotationPropertyRange>
+        <AnnotationProperty IRI="http://schema.org/name"/>
+        <IRI>http://schema.org/Text</IRI>
+    </AnnotationPropertyRange>
+    <AnnotationPropertyRange>
+        <AnnotationProperty IRI="http://schema.org/sameAs"/>
+        <IRI>http://schema.org/URL</IRI>
+    </AnnotationPropertyRange>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="http://schema.org/isAccessibleForFree"/>
+        <IRI>http://schema.org/Event</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="http://schema.org/name"/>
+        <IRI>http://schema.org/Event</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="http://schema.org/sameAs"/>
+        <IRI>http://schema.org/Event</IRI>
+    </AnnotationPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
